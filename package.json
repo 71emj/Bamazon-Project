@@ -2,7 +2,7 @@
   "name": "bamazon-project",
   "version": "1.0.0",
   "description": "\"create online auctioning using node and mysql\"",
-  "main": "index.js",
+  "main": "bamazonCustomer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

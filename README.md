@@ -5,7 +5,8 @@ Working with sql and node <br> <br>
 
 ## ver 1.0.0 
 
-The Bamazon app is an interactive inferface for Bamazon(fake) to handle its day to day businesses.
+The Bamazon app is an interactive inferface for Bamazon(fake) to handle its day to day businesses. <br> <br>
+
 
 
 ##### The customer view (bamazonCustomer.js)
@@ -29,15 +30,22 @@ If the customer attempts to buy more than the products available in store, the a
 > Y: The app will bring customer back to welcome page with changes reflecting the last purchase <br>
 > N: The app will prompt customer with good bye and terminate the process <br>
 
-![goodbye](./screenshots/bamazonCustomer_seeyounexttime.png) <br> <br>
+![goodbye](./screenshots/bamazonCustomer_seeyounexttime.png) <br> <br> <br>
 
 
 
 ##### The manager view (bamazonManager.js)
 
-
 ![welcoming log](./screenshots/bamazonManager_start.png) <br>
 When entering the app manager are greeted with a list of utilities available for assisting store management <br>
+
+<br>
+* View Products <br>
+* Low Inventory <br>
+* Replenish Inventory <br>
+* Add New Product <br>
+* Nothing just checking <br>
+<br>	
 
 ![view product](./screenshots/bamazonManager_viewproducts.png) <br>
 Choosing view products the manager will get a list of items available in store <br>
@@ -53,8 +61,25 @@ Alternatively the manager can also ask the app to show him a list of products th
 The manager can use the "replenish inventory" option to stock up the store. Once choosed the item (by the id) the manager is then prompted with the amount of purchase. <br>
 
 ![add new product](./screenshots/bamazonManager_addproduct.png) <br>
-The manager can also add new product to the store available list. The app will then prompt with a series of question asking for the name of the product, department, price and initial inventory count (Unfortunately I set the column byte length a little too low to handle number larger than 9999) <br>
+The manager can also add new product to the store available list. The app will then prompt with a series of question asking for the name of the product, department, price and initial inventory count (Unfortunately I set the column byte length a little too low to handle number larger than 9999) <br> <br> <br>
 
 
 
-##### The manager view (bamazonManager.js)
+##### <strong>The manager view (bamazonSupervisor.js)</strong>
+
+![welcoming log](./screenshots/bamazonSupervisor_start.png) <br>
+Similar to the manager interface the supervisor enters the app with a series of choices <br>
+
+<br>
+* How's our sales so far <br>
+* I'd like to add new department to store <br>
+* I'd like to get rid of a department <br>
+* Nothing just checking <br>
+<br>	
+
+![view the sales](./screenshots/bamazonSupervisor_viewsales.png) <br>
+This functionality will show you a simple table summarizing the total sales, overhead, and profit margin of each department (so far not great, amazon is beating us) <br>
+
+![add department](./screenshots/bamazonSupervisor_adddepartment.png) <br>
+![remove department](./screenshots/bamazonSupervisor_removedepartment.png) <br>
+Alternatively supervisor also have the power to start/terminate a department if the sales is doing poorly <br>

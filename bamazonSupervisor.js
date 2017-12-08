@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 
 const Inquirer = require("inquirer"),
    Mysql = require("mysql"),
@@ -56,7 +56,7 @@ function viewProductSales() {
          !!err && console.log(err);
 
          res.forEach((elem) => {
-            table.push([elem.id, elem.department_name, elem.department_overhead, elem.product_sales, (elem.product_sales - elem.department_overhead)]);
+            table.push([elem.id, elem.department_name, elem.department_overhead, elem.product_sales, Math.round(elem.product_sales - elem.department_overhead)]);
          });
 
          console.log(table.toString());

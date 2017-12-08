@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 
 const Inquirer = require("inquirer"),
    Mysql = require("mysql"),

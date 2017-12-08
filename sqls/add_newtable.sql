@@ -9,7 +9,7 @@ CREATE TABLE department_table(
 );
 
 ALTER TABLE product_table 
-ADD product_sales DECIMAL(10, 2) NOT NULL;
+ADD product_sales DECIMAL(14, 2) NOT NULL;
 
 
 INSERT INTO department_table (department_name, department_overhead) 
