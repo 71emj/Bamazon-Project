@@ -1,15 +1,10 @@
 # Bamazon-Project
 Working with sql and node <br> <br>
 
-
-
 ## ver 1.0.0 
-
 The Bamazon app is an interactive inferface for Bamazon(fake) to handle its day to day businesses. <br> <br>
 
-
-
-##### The customer view (bamazonCustomer.js)
+#### The customer view (bamazonCustomer.js)
 
 ![welcoming log](./screenshots/bamazonCustomer_start.png) <br>
 Customer are welcome with a list of available products <br>
@@ -33,8 +28,7 @@ If the customer attempts to buy more than the products available in store, the a
 ![goodbye](./screenshots/bamazonCustomer_seeyounexttime.png) <br> <br> <br>
 
 
-
-##### The manager view (bamazonManager.js)
+#### The manager view (bamazonManager.js)
 
 ![welcoming log](./screenshots/bamazonManager_start.png) <br>
 When entering the app manager are greeted with a list of utilities available for assisting store management <br>
@@ -65,7 +59,7 @@ The manager can also add new product to the store available list. The app will t
 
 
 
-##### <strong>The supervisor view (bamazonSupervisor.js)</strong>
+#### The supervisor view (bamazonSupervisor.js)
 
 ![welcoming log](./screenshots/bamazonSupervisor_start.png) <br>
 Similar to the manager interface the supervisor enters the app with a series of choices <br>
@@ -80,6 +74,7 @@ Similar to the manager interface the supervisor enters the app with a series of 
 ![view the sales](./screenshots/bamazonSupervisor_viewsales.png) <br>
 This functionality will show you a simple table summarizing the total sales, overhead, and profit margin of each department (so far not great, amazon is beating us) <br>
 
+<<<<<<< HEAD
 ![add department](./screenshots/bamazonSupervisor_adddepartment.png) <br>
 ![remove department](./screenshots/bamazonSupervisor_removedepartment.png) <br>
 Alternatively supervisor also have the power to start/terminate a department if the sales is doing poorly <br>
