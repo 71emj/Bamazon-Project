@@ -1,0 +1,26 @@
+{
+  "name": "bamazon-project",
+  "version": "1.0.0",
+  "description": "\"create online auctioning using node and mysql\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/71emj/Bamazon-Project.git"
+  },
+  "author": "71emj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/71emj/Bamazon-Project/issues"
+  },
+  "homepage": "https://github.com/71emj/Bamazon-Project#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "cli-table-redemption": "^1.0.1",
+    "dotenv": "^4.0.0",
+    "inquirer": "^4.0.1",
+    "mysql": "^2.15.0",
+  }
+}
