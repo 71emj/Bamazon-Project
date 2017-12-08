@@ -1,7 +1,8 @@
 # Bamazon-Project
-Working with sql and node <br>
+Working with sql and node <br> <br>
 
-<br> 
+
+
 ## ver 1.0.0 
 
 The Bamazon app is an interactive inferface for Bamazon(fake) to handle its day to day businesses.
