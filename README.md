@@ -8,7 +8,7 @@ Working with sql and node <br> <br>
 The Bamazon app is an interactive inferface for Bamazon(fake) to handle its day to day businesses.
 
 
-##### The customer view (bamazonCustomer.js)
+#### The customer view (bamazonCustomer.js)
 
 ![welcoming log](./screenshots/bamazonCustomer_start.png) <br>
 Customer are welcome with a list of available products <br>
@@ -33,8 +33,7 @@ If the customer attempts to buy more than the products available in store, the a
 
 
 
-##### The manager view (bamazonManager.js)
-
+#### The manager view (bamazonManager.js)
 
 ![welcoming log](./screenshots/bamazonManager_start.png) <br>
 When entering the app manager are greeted with a list of utilities available for assisting store management <br>
@@ -57,4 +56,4 @@ The manager can also add new product to the store available list. The app will t
 
 
 
-##### The manager view (bamazonManager.js)
+#### The supervisor view (bamazonManager.js)
