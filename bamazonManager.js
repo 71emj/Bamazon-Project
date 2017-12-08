@@ -1,9 +1,4 @@
-const DEBUG = true,
-	Util = require("util");
-
-console.log = (data) => {
-	DEBUG && process.stdout.write(Util.format(data) + "\n");
-};
+const DEBUG = true;
 
 const Inquirer = require("inquirer"),
    Mysql = require("mysql"),
@@ -87,7 +82,7 @@ function viewLowInventory() {
 
 function updateInventory() {
    const table = new Table({
-      head: heading(["ID", "Department", "Overhead", "Sales"], "yellowBright"),
+      head: heading(["ID", "Department", "Price", "Sales"], "yellowBright"),
       colWidths: [5, 50, 15, 10]
    });
    connection.query(
@@ -176,7 +171,7 @@ function updateProductCatelog() {
                   product_quantity: data.quantity
                }], (err, res, fields) => {
                   !!err && console.log(err);
-                  console.log("Successfully add ", data.name + " to the catelog!!");
+                  console.log("Successfully add %s to the catelog!!", data.name);
                   managerInterface("Anything else I can do for you?");
                });
          });
