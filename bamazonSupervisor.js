@@ -51,12 +51,12 @@ function viewProductSales() {
    });
 
    connection.query(
-      "SELECT d.id, d.department_name, d.department_overhead, p.product_sales FROM department_table AS d INNER JOIN product_table AS p on d.department_name = p.product_category GROUP BY p.product_category ORDER BY d.id",
+      "SELECT d.id, d.department_name, d.department_overhead, SUM(p.product_sales) FROM department_table AS d INNER JOIN product_table AS p on d.department_name = p.product_category GROUP BY p.product_category ORDER BY d.id",
       (err, res, fields) => {
          !!err && console.log(err);
-
+         DEBUG && console.log(res);
          res.forEach((elem) => {
-            table.push([elem.id, elem.department_name, elem.department_overhead, elem.product_sales, Math.round(elem.product_sales - elem.department_overhead)]);
+            table.push([elem.id, elem.department_name, elem.department_overhead, elem["SUM(p.product_sales)"], elem["SUM(p.product_sales)"] - elem.department_overhead]);
          });
 
          console.log(table.toString());
