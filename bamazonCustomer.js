@@ -1,9 +1,4 @@
-const DEBUG = true,
-	Util = require("util");
-
-console.log = (data) => {
-	DEBUG && process.stdout.write(Util.format(data) + "\n");
-};
+const DEBUG = true;
 
 const Inquirer = require("inquirer"),
    Mysql = require("mysql"),
@@ -69,7 +64,7 @@ async function checkIfAvailable(productName, productId) {
                console.log("Sorry we don't have enough in stock...");
                return keepBuying(buyFromBamazon, productId);
             }
-            console.log("Congrats you just bought ", Chalk.cyanBright(data.amount) + " ", Chalk.yellowBright(productName));
+            console.log("Congrats you just bought %s %s", Chalk.cyanBright(data.amount), Chalk.yellowBright(productName));
             updateDatabase(productName, data.amount)
          });
    });
