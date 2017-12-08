@@ -1,5 +1,5 @@
 # Bamazon-Project
-Working with sql and node 
+Working with sql and node <br>
 
 
 ## ver 1.0.0 
@@ -9,11 +9,11 @@ The Bamazon app is an interactive inferface for Bamazon(fake) to handle its day 
 
 ##### The customer view (bamazonCustomer.js)
 
-![welcoming log](./screenshots/bamazonCustomer_start.png)
-Customer are welcome with a list of available products
+![welcoming log](./screenshots/bamazonCustomer_start.png) <br>
+Customer are welcome with a list of available products <br>
 
-![choices](./screenshots/bamazonCustomer_options.png)
-Customer can choose from a list of product Ids to buy the product they want
+![choices](./screenshots/bamazonCustomer_options.png) <br>
+Customer can choose from a list of product Ids to buy the product they want <br>
 
 ![Buy product](./screenshots/bamazonCustomer_quantity.png) 
 Once select the item they wish to purchase (in this case item 4, Baseball Bat) the customer is prompted with the question
