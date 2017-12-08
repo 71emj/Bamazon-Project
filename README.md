@@ -32,8 +32,6 @@ If the customer attempts to buy more than the products available in store, the a
 
 ![welcoming log](./screenshots/bamazonManager_start.png) <br>
 When entering the app manager are greeted with a list of utilities available for assisting store management <br>
-
-<br>
 * View Products <br>
 * Low Inventory <br>
 * Replenish Inventory <br>
@@ -63,8 +61,6 @@ The manager can also add new product to the store available list. The app will t
 
 ![welcoming log](./screenshots/bamazonSupervisor_start.png) <br>
 Similar to the manager interface the supervisor enters the app with a series of choices <br>
-
-<br>
 * How's our sales so far <br>
 * I'd like to add new department to store <br>
 * I'd like to get rid of a department <br>
@@ -74,7 +70,6 @@ Similar to the manager interface the supervisor enters the app with a series of 
 ![view the sales](./screenshots/bamazonSupervisor_viewsales.png) <br>
 This functionality will show you a simple table summarizing the total sales, overhead, and profit margin of each department (so far not great, amazon is beating us) <br>
 
-<<<<<<< HEAD
 ![add department](./screenshots/bamazonSupervisor_adddepartment.png) <br>
 ![remove department](./screenshots/bamazonSupervisor_removedepartment.png) <br>
 Alternatively supervisor also have the power to start/terminate a department if the sales is doing poorly <br>
