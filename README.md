@@ -65,7 +65,7 @@ The manager can also add new product to the store available list. The app will t
 
 
 
-##### <strong>The manager view (bamazonSupervisor.js)</strong>
+##### <strong>The supervisor view (bamazonSupervisor.js)</strong>
 
 ![welcoming log](./screenshots/bamazonSupervisor_start.png) <br>
 Similar to the manager interface the supervisor enters the app with a series of choices <br>
